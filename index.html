@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Daily Football</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <div class="logo">
+        <h1>Daily Football</h1>
+        <img class="logo-img" src="Logo.png" width="100px" height="100px" alt="">
+      </div>
+    </header>
+
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#">UCL</a></li>
+        <li><a href="#">Premier League</a></li>
+        <li><a href="#">La Liga</a></li>
+        <li><a href="#">Ligue 1</a></li>
+        <li><a href="#">Bundesliga</a></li>
+        <li><a href="#">Serie A</a></li>
+        <li><a href="#">Liga 1</a></li>
+      </ul>
+      <input class="search-bar" type="text" placeholder="Search here...">
+    </nav>
+
+    <main>
+
+      <div class="container">
+
+        <div class="article">
+          <h1>UEFA postpones EURO 2020 by 12 months</h1>
+          <p>Priority given to completing domestic competitions in an unprecedented solidarity move by UEFA. Working group set up to examine possibilities for this season's UEFA Champions League and UEFA Europa League competitions.</p>
+          <img src="https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTAxdHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMTgl/MkYxMSUyRjIyJTJGMTAwODU3MF8xMDA4/NTcwX2V1cm8yMDIwLnBuZyZ3PTcwMCZo/PTQyMCZoYXNoPTIxMTQ1NTFkOWVlYWVmMmMxNTA0MmE5MTM2NmQ1ZWQ4.thumb.jpg" alt="">
+          <p>UEFA today announced the postponement of its flagship national team competition, UEFA EURO 2020, due to be played in June and July this year. The health of all those involved in the game is the priority, as well as to avoid placing any unnecessary pressure on national public services involved in staging matches. The move will help all domestic competitions, currently on hold due to the COVID-19 emergency, to be completed.</p>
+          <p>All UEFA competitions and matches (including friendlies) for clubs and national teams for both men and women have been put on hold until further notice. The UEFA EURO 2020 play-off matches and international friendlies, scheduled for the end of March, will now be played in the international window at the start of June, subject to a review of the situation.</p>
+        </div>
+
+        <div class="survey">
+          <form method="post">
+            <section class="form-shape">
+           <label id="name-label" for "name">Name</label>
+           <input class="text-input" type="text" name="name" id="name"  placeholder="Enter your name" required>
+         </section>
+
+         <section class="form-shape">
+           <label id="email-label" for "email">Email</label>
+           <input class="text-input" type="email" name="email" id="email"  placeholder="Enter your email address" required>
+         </section>
+
+         <section class="form-shape">
+           <label id="number-label" for "number">Age</label>
+           <input class="text-input" type="number" name="number" id="number" min = "10" max="99"  placeholder="Enter your age" required>
+         </section>
+
+         <section class="form-shape" id="radio-form">
+           <p>Which team do you support?</p>
+           <label>
+             <input type="radio" value="barcelona" name="teams" checked>
+             Barcelona
+             </label>
+           <label>
+             <input type="radio" value="real-madrid" name="teams">
+             Real Madrid
+             </label>
+           <label>
+             <input type="radio" value="man-utd" name="teams">
+             Manchester United
+             </label>
+           <label>
+             <input type="radio" value="liverpool" name="teams">
+             Liverpool
+             </label>
+           <label>
+             <input type="radio" value="bayern" name="teams">
+             Bayern Munchen
+             </label>
+           <label>
+             <input type="radio" value="juventus" name="teams">
+             Juventus
+             </label>
+         </section>
+
+         <section class="form-shape" id="check-form">
+          <p>What are your favourite competitions to watch?</p>
+          <label>
+            <input type="checkbox" value="ucl" name="competition" checked>
+            UCL
+            </label>
+          <label>
+            <input type="checkbox" value="la-liga" name="competition">
+            La Liga
+            </label>
+          <label>
+            <input type="checkbox" value="serie-A" name="competition">
+            Serie A
+            </label>
+          <label>
+            <input type="checkbox" value="bundesliga" name="competition">
+            Bundesliga
+            </label>
+          <label>
+            <input type="checkbox" value="premier-league" name="competition">
+            Premier League
+            </label>
+        </section>
+
+        <section class="form-shape">
+          <button type="submit">Submit</button>
+        </section>
+         </form>
+        </div>
+
+      </div>
+
+      <div class="video">
+        <h2>Watch the highlights from the last Manchester Derby</h2>
+        <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/lYbNYsrl2d4" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+    </main>
+
+    <footer>
+      <p>Autor: Alex</p>
+      <div class="newsletter">
+        <p>NewsLetter:</p>
+        <input type="text" name="newsletter" placeholder="Type here...">
+      </div>
+      <p>Numar: 0722222222</p>
+    </footer>
+
+  </body>
+</html>
